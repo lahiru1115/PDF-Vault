@@ -22,14 +22,14 @@ const AuthWrapper = ({ isAuthenticated, modalVisible, handleOk, handleCancel, ch
                         <>
                             <PageWrapper>
                                 <Modal
-                                    title="Authentication Required"
+                                    title="Your session has expired"
                                     open={modalVisible}
                                     onOk={handleOk}
                                     onCancel={handleCancel}
                                     okText="Login"
                                     cancelText="Cancel"
                                 >
-                                    <p>You need to be logged in to access this page. Please log in or cancel to go back.</p>
+                                    <p>Please log in again to continue using the app.</p>
                                 </Modal>
                             </PageWrapper>
                         </>
